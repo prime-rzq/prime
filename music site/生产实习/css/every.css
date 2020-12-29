@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:华文新魏;
+    font-size: large;
+    text-decoration: none;
+    background-color: rgb(179, 235, 191);
+}
+div{
+    margin:10px;
+    padding:10px;
+    /* border:1px solid black; */
+}
+#top{
+    position:relative;
+    height:60px;
+    /* background-color: rgb(179, 235, 191); */
+}
+/* #mid{
+    height:400px;
+} */
+#bottom{
+    height:17px;
+    text-align:center;
+    background-color:rgb(74, 209, 97);
+}
+#bottom center{
+    font-size:12px;
+    color:rgb(3, 39, 3);
+}
+#log{ 
+    width:50px;
+    height:50px;
+    float: left;
+}
+#serchKey{
+    width:300px;
+    height:30px
+}
+#serch{
+    font-size:larger;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: darkgreen;
+    width:50px;
+    height:50px;
+}
+#index,#login,#serch,#serchKey{
+    float:right;
+}
+
+

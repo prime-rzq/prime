@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="my name is ruan Ziqin." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="css/every.css" type='text/css'>
+    <style>
+        #mid{
+            height:400px;
+            position: relative;
+        }
+        #left{
+            width:250px;
+            float:left;
+            position: relative;
+            height:330px;
+            padding:20px;
+        }
+        #right{
+            width:830px;
+            float:left;
+            position:relative;
+            height:330px;
+        }
+        #midright{
+            width:830px;
+            height:330px;
+        }
+        #float{
+            font-weight: bolder;
+            font-size: 30px;
+            color:darkorange;
+            background-color: rgb(19, 160, 82);
+            padding: 20px;
+            /* margin:10px; */
+        }
+        #order{
+            list-style:none;
+        }
+        a{
+            text-decoration:none;
+            color:black;
+            background-color:  rgb(19, 160, 82);
+        }
+        li{
+            margin:10px 0px 0px 100px;
+            background-color: rgb(19, 160, 82);
+            width:100px;
+            height:40px;
+            text-align:center;
+            line-height:40px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id = 'top'>
+        <img id = 'log' src="imgs/small images/log.jpg" />
+        <span style='line-height: 50px;font-size:30px;font-family:华文行楷;color:darkgreen;'>牛牛音乐</span>
+        <a href="htmls/login.html"><img src="imgs/small images/登录.png" alt="登录" id = 'login'></a>
+        <!-- <input type="text" id = 'serchKey' value = '搜一搜' /> -->
+        
+        <marquee id = 'piaofu'><span id = 'float'>   
+            <a href="htmls/music.html">
+            <!-- <a href="htmls/beishan.html"> -->
+                I have a surprise.
+            </a> 
+        </span></marquee>
+    </div>
+
+    <div id = 'mid'>  
+        <div id = 'left'>
+            <ul id = 'order'>
+                <li><a href="htmls/theme.html">    主&nbsp;&nbsp;题 </a></li>
+                <li><a href="htmls/scene.html">    场&nbsp;&nbsp;景 </a></li>
+                <li><a href="htmls/mood.html">     心&nbsp;&nbsp;情 </a></li>
+                <li><a href="htmls/decade.html">   年&nbsp;&nbsp;代 </a></li>
+                <li><a href="htmls/genre.html">    流&nbsp;&nbsp;派 </a></li>
+                <li><a href="htmls/language.html"> 语&nbsp;&nbsp;种 </a></li>
+            </ul>
+        </div>
+        <div id = 'right'>
+            <a href="htmls/beishan.html"><img src="imgs/beishan/iii.gif" alt="" id = 'midright'></a>
+        </div>
+    </div>
+    <div id = 'bottom'> 
+            <i class="fa fa-search"  aria-hidden="true"></i> 
+                &nbsp;&nbsp;&nbsp;&nbsp;学号：19301136
+                &nbsp;&nbsp;&nbsp;&nbsp;姓名：阮子亲
+                &nbsp;&nbsp;&nbsp;&nbsp;班级：软件技术19-3
+                &nbsp;&nbsp;&nbsp;&nbsp;建议箱：<a href="mailto:1785599740@qq.coms" style="background-color: none;">1785599740@qq.coms</a>
+    </div>
+    
+</body>
+</html>
+<script src="js/index.js"></script> 
+<script>
+    var mouse = document.getElementsByTagName('html');
+    mouse.onload = function(){
+        mouse.style.cursor = URL('imgs/small images/mousestyle.png');
+    }
+</script>
+
+<!-- html,body{
+    cursor: url('imgs/small images/mousestyle.png'),auto;
+} -->

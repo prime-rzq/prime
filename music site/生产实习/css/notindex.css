@@ -1,0 +1,38 @@
+
+#type{
+    list-style-type:none;
+    text-align: center;
+}
+#type li{
+    display: inline;
+    padding:20px;
+}
+#type a{
+    background-color: rgb(19, 160, 82);
+    text-decoration: none;
+    padding:10px 30px;
+    color:rgb(3, 39, 3);
+}
+ul{
+    list-style: none;
+}
+#musicList>li{
+    line-height: 30px;
+    list-style-type: none;
+    background: url("../imgs/small images/yinfu.jpg") no-repeat 0rem 0.2rem;
+    background-size: 1rem 1rem;
+    background-color:  rgb(148, 236, 153);
+    text-indent: 2em;
+}
+
+#node{
+    background-color: rgb(171, 206, 110);
+}
+#node span{
+    background-color:  rgb(148, 236, 153);
+    float:right;
+}
+#node span a,#musicList a{ 
+    background-color:  rgb(148, 236, 153);
+    color:black;
+}
