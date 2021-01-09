@@ -1,0 +1,72 @@
+.bx{
+	width: 870px;
+	height: 700px;
+	background: #eeeeee;
+	position: relative;
+}
+.bx .box{
+	width: 780px;
+	height:600px;
+	background: #fff;
+	border-radius: 10px;
+}
+.bx .box .top{
+	height: 75px;
+	width: 780px;
+	overflow: hidden;
+}
+.bx .box .top .left{
+	float: left;
+	width: 140px;
+	font-size: 16px;
+	color: #686868;
+	margin-left: 30px;
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
+}
+.bx .box .top .right{
+	float: right;
+	width: 94px;
+	height: 15px;
+	margin-top: 50px;
+	margin-right: 20px;
+	font-size: 15px;
+	color: #686868;
+}
+.bx .box .content{
+	width: 780px;
+	height: 40px;
+	background: #e7f3f3;
+	margin-top: 10px;
+	line-height: 40px;
+	text-align: center;
+}
+.bx .box .content .main{
+	width: 102px;
+	height: 30px;
+	background: url("../img/border.png") no-repeat 0 5px;
+	
+}
+.bx .box .content .main .title{
+	float: right;
+	font-size: 17px;
+	color: #353034;
+	display: inline-block;
+}
+.bx .box .bottom{
+    color:#686868;
+	margin-top: 27px;
+	margin-left: 30px;
+}
+.bx .box .bottom label{
+    font-size: 17px;
+}
+.bx .box .bottom input{
+    color:#686868;
+    border:1px solid #cccccc;
+    width:140px;
+    height:15px;
+    padding: 7px 0 6px 10px;
+    outline: none;
+}

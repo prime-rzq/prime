@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/StudentLeft.css">
+	</head>
+	<body>
+		<div class="nav">
+			<div class="nav-list">
+				<div class="nav-tit" id="personal">
+					<a href="student.php" target="main">
+						<img src="../img/personal-msg.png" style="height: 30px" alt="">
+						<span>个人信息</span>
+					</a>
+				</div>
+				<div class="personal-list" id="personal-child">
+					<ul>
+						<li><a href="FamilyInformation.php" target="main">家庭信息</a></li>
+						<li><a href="StudentScInformation.php" target="main">学校信息</a></li>
+						<li><a href="school-msg.php" target="main">学籍信息</a></li>
+						<li><a href="punishment.php" target="main">处分信息</a></li>
+					</ul>
+				</div>
+				<div class="nav-tit">
+					<a href="StudentGrades.php" target="main">
+						<img src="../img/job-msg.png" alt="">
+						<span>成绩查询</span>
+					</a>
+				</div>
+				<div class="nav-tit">
+					<a href="StudentRevise.html" target="main">
+						<img src="../img/modify-password.png" alt="">
+						<span>修改密码</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<script src="../js/jquery-3.5.1.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#personal').click(function(){
+					$('#personal-child').fadeToggle(300);
+				})
+				$('#personal-child li').click(function(){
+					$(this).addClass('active').siblings('li').removeClass('active');
+				})
+			});
+		</script>
+	</body>
+	</html>
+	

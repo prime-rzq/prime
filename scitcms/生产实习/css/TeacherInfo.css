@@ -1,0 +1,11 @@
+.flgure .info{
+	list-style: none;
+	position: absolute;
+	left: 0;
+	top: -40px;
+}
+.content {
+	position: relative;
+	top:40px;
+}
+

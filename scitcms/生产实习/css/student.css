@@ -1,0 +1,42 @@
+.header{
+    padding:30px 20px 10px 30px;
+    color:#646464;
+    font-size: 15px;
+}
+.header .top{
+    width:100%;
+    margin-bottom: 5px;
+}
+.header .bottom{
+    width:130px;
+}
+.main{
+    color:#686868;
+    padding-bottom: 94px;
+}
+.main .title{
+    padding:5px 0 5px 30px;
+    height:30px;
+    background: url("../img/border.png") no-repeat 0 5px;
+    background-color: #e7f3f3;
+    color:#333436;
+    font-size:18px;
+    line-height: 30px;
+    /*margin-bottom: 30px;*/
+}
+.main .content{
+    padding: 0 0 0 30px;
+    width:750px;
+    color:#686868;    
+}
+.main label{
+    font-size: 17px;
+}
+.main input{
+    color:#686868;
+    border:1px solid #cccccc;
+    width:140px;
+    height:15px;
+    padding: 7px 0 6px 8px;
+    outline: none;
+}
